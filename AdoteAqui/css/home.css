@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: black;
+}
+
+.background{
+    background-color: purple;
+
+}
+
+.background-color-Sobre{
+    background-color: gray;
+    width: 100%;
+    padding:100px 0px;
+
+}
+
+.background-color-Sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.text-sobre{
+    width: 550px;
+}
+
+.Main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.text-sobre h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;   
+}
+
+.text-sobre h2 span{
+    color: brown;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.text-sobre h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.button{
+    background-color: brown;
+    color:white;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 40px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover{
+   background-color: transparent;
+   border: 2px solid brown;
+   cursor: pointer;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+}
+
+#menu-h ul li{
+    display: inline;  
+    padding: 55px;  
+}
+
+#menu-h ul li a{ 
+    outline: none;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+}
+
+#menu-h ul li a:hover{
+    background-color: purple;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    color: white;
+    background-color: purple;
+
+}
+

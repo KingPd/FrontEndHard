@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.background{
+    background-color: purple;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+}
+
+#menu-h ul li{
+    display: inline;  
+    padding: 55px;  
+}
+
+#menu-h ul li a{ 
+    outline: none;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+}
+
+#menu-h ul li a:hover{
+    background-color: purple;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    color: white;
+    background-color: purple;
+
+}
